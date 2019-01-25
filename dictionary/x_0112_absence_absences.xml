@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Absences" max_length="40" name="x_0112_absence_absences" type="collection">
+        <element label="From" max_length="40" name="from" type="glide_date"/>
+        <element label="Leave Type" max_length="32" name="leave_type" reference="x_0112_absence_leave_type" type="reference"/>
+        <element label="To" max_length="40" name="to" type="glide_date"/>
+    </element>
+</database>

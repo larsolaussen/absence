@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Leave Type" max_length="40" name="x_0112_absence_leave_type" type="collection">
+        <element display="true" label="Leave Type" max_length="100" name="leave_type" type="string"/>
+        <element label="Needs approval" max_length="40" name="needs_approval" type="boolean"/>
+    </element>
+</database>
