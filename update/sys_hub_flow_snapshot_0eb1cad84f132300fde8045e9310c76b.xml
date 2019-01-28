@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>An absence that requires approval will trigger an email to the persons manager.</description>
+        <internal_name>absence_approval</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.opened_by.manager","label":"Trigger➛Absences Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created or Updated_1.current","label":"Trigger➛Absences Record","reference":"x_0112_absence_absences","reference_display":"Absences","type":"reference","base_type":"reference"},{"name":"5e334b78-57dc-4564-9cbd-04af576b34fc.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"}]</label_cache>
+        <master>true</master>
+        <name>Absence approval</name>
+        <outputs/>
+        <parent_flow display_value="Absence approval">32326a1b4f032300fde8045e9310c7f4</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:05:26</sys_created_on>
+        <sys_id>0eb1cad84f132300fde8045e9310c76b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Absence approval</sys_name>
+        <sys_package display_value="Absence" source="x_0112_absence">ee776d034f032300fde8045e9310c797</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absence">ee776d034f032300fde8045e9310c797</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_0eb1cad84f132300fde8045e9310c76b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:05:26</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0eb1cad84f132300fde8045e9310c76b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0eb1cad84f132300fde8045e9310c76b"/>
+</record_update>

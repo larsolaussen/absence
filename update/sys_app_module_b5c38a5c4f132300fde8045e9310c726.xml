@@ -9,33 +9,33 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>SEPARATOR</link_type>
         <map_page/>
-        <mobile_title>Leave Types</mobile_title>
+        <mobile_title>Administrator</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_0112_absence_leave_type</name>
-        <order>220</order>
+        <name/>
+        <order>200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_0112_absence.admin</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-21 13:51:49</sys_created_on>
+        <sys_created_on>2019-01-25 12:14:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>11b3354f4f032300fde8045e9310c7aa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Leave Types</sys_name>
+        <sys_id>b5c38a5c4f132300fde8045e9310c726</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Administration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Absence" source="x_0112_absence">ee776d034f032300fde8045e9310c797</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absence">ee776d034f032300fde8045e9310c797</sys_scope>
-        <sys_update_name>sys_app_module_11b3354f4f032300fde8045e9310c7aa</sys_update_name>
+        <sys_update_name>sys_app_module_b5c38a5c4f132300fde8045e9310c726</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-25 12:17:21</sys_updated_on>
+        <sys_updated_on>2019-01-25 12:15:42</sys_updated_on>
         <timeline_page/>
-        <title>Leave Types</title>
+        <title>Administration</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_record_trigger">
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_0112_absence_absences">leave_type.needs_approval=true<item endquery="false" field="leave_type.needs_approval" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:05:28</sys_created_on>
+        <sys_id>1ab1cad84f132300fde8045e9310c7b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absence" source="x_0112_absence">ee776d034f032300fde8045e9310c797</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absence">ee776d034f032300fde8045e9310c797</sys_scope>
+        <sys_update_name>sys_flow_record_trigger_1ab1cad84f132300fde8045e9310c7b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:05:28</sys_updated_on>
+        <table>x_0112_absence_absences</table>
+    </sys_flow_record_trigger>
+</record_update>

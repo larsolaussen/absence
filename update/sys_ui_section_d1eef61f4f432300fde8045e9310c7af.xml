@@ -4,13 +4,13 @@
             <element>leave_type</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-22 14:03:32</sys_created_on>
-            <sys_id>b6ff365f4f432300fde8045e9310c7b4</sys_id>
+            <sys_created_on>2019-01-25 12:02:26</sys_created_on>
+            <sys_id>710142d84f132300fde8045e9310c7cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0112_absence_absences" sys_domain="global" view="Default view">d1eef61f4f432300fde8045e9310c7af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-22 14:03:32</sys_updated_on>
+            <sys_updated_on>2019-01-25 12:02:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>from</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-22 14:03:32</sys_created_on>
-            <sys_id>3aff365f4f432300fde8045e9310c7b4</sys_id>
+            <sys_created_on>2019-01-25 12:02:26</sys_created_on>
+            <sys_id>f10142d84f132300fde8045e9310c7cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0112_absence_absences" sys_domain="global" view="Default view">d1eef61f4f432300fde8045e9310c7af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-22 14:03:32</sys_updated_on>
+            <sys_updated_on>2019-01-25 12:02:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,69 +32,83 @@
             <element>to</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-22 14:03:32</sys_created_on>
-            <sys_id>baff365f4f432300fde8045e9310c7b4</sys_id>
+            <sys_created_on>2019-01-25 12:02:26</sys_created_on>
+            <sys_id>750142d84f132300fde8045e9310c7cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0112_absence_absences" sys_domain="global" view="Default view">d1eef61f4f432300fde8045e9310c7af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-22 14:03:32</sys_updated_on>
+            <sys_updated_on>2019-01-25 12:02:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comment</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 12:02:26</sys_created_on>
+            <sys_id>f50142d84f132300fde8045e9310c7cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_0112_absence_absences" sys_domain="global" view="Default view">d1eef61f4f432300fde8045e9310c7af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 12:02:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-22 14:03:32</sys_created_on>
-            <sys_id>3eff365f4f432300fde8045e9310c7b4</sys_id>
+            <sys_created_on>2019-01-25 12:02:26</sys_created_on>
+            <sys_id>790142d84f132300fde8045e9310c7cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0112_absence_absences" sys_domain="global" view="Default view">d1eef61f4f432300fde8045e9310c7af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-22 14:03:32</sys_updated_on>
+            <sys_updated_on>2019-01-25 12:02:26</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approval</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-22 14:03:32</sys_created_on>
-            <sys_id>beff365f4f432300fde8045e9310c7b4</sys_id>
+            <sys_created_on>2019-01-25 12:02:26</sys_created_on>
+            <sys_id>f90142d84f132300fde8045e9310c7cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0112_absence_absences" sys_domain="global" view="Default view">d1eef61f4f432300fde8045e9310c7af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-22 14:03:32</sys_updated_on>
+            <sys_updated_on>2019-01-25 12:02:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>opened_by</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-22 14:03:32</sys_created_on>
-            <sys_id>32ff365f4f432300fde8045e9310c7b5</sys_id>
+            <sys_created_on>2019-01-25 12:02:26</sys_created_on>
+            <sys_id>7d0142d84f132300fde8045e9310c7cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0112_absence_absences" sys_domain="global" view="Default view">d1eef61f4f432300fde8045e9310c7af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-22 14:03:32</sys_updated_on>
+            <sys_updated_on>2019-01-25 12:02:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>opened_by.manager</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-22 14:03:32</sys_created_on>
-            <sys_id>b2ff365f4f432300fde8045e9310c7b5</sys_id>
+            <sys_created_on>2019-01-25 12:02:26</sys_created_on>
+            <sys_id>fd0142d84f132300fde8045e9310c7cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0112_absence_absences" sys_domain="global" view="Default view">d1eef61f4f432300fde8045e9310c7af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-22 14:03:32</sys_updated_on>
+            <sys_updated_on>2019-01-25 12:02:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -16,18 +16,18 @@
         <mobile_title>Users</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>sys_user</name>
-        <order/>
+        <order>230</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_0112_absence.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-22 13:50:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a2ccbe9b4f432300fde8045e9310c76f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Users</sys_name>
         <sys_overrides/>
         <sys_package display_value="Absence" source="x_0112_absence">ee776d034f032300fde8045e9310c797</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Absence">ee776d034f032300fde8045e9310c797</sys_scope>
         <sys_update_name>sys_app_module_a2ccbe9b4f432300fde8045e9310c76f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-22 13:50:37</sys_updated_on>
+        <sys_updated_on>2019-01-25 12:17:41</sys_updated_on>
         <timeline_page/>
         <title>Users</title>
         <uncancelable>false</uncancelable>

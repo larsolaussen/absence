@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_0112_absence_absences">leave_type=486c56574f032300fde8045e9310c700^ORleave_type=556c96574f032300fde8045e9310c723^ORleave_type=b00c9a574f032300fde8045e9310c72e^ORleave_type=417c56574f032300fde8045e9310c704^EQ<item display_table="x_0112_absence_leave_type" display_value="Sickness Self-Certificate" endquery="false" field="leave_type" goto="false" newquery="false" operator="=" or="false" value="486c56574f032300fde8045e9310c700"/>
+            <item display_table="x_0112_absence_leave_type" display_value="Sick Child" endquery="false" field="leave_type" goto="false" newquery="false" operator="=" or="true" value="556c96574f032300fde8045e9310c723"/>
+            <item display_table="x_0112_absence_leave_type" display_value="Sickness - Medical-Certificate" endquery="false" field="leave_type" goto="false" newquery="false" operator="=" or="true" value="b00c9a574f032300fde8045e9310c72e"/>
+            <item display_table="x_0112_absence_leave_type" display_value="Snow Day" endquery="false" field="leave_type" goto="false" newquery="false" operator="=" or="true" value="417c56574f032300fde8045e9310c704"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setMandatory('comment',true); 
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setMandatory('comment',false); 
+}]]></script_true>
+        <set_values/>
+        <short_description>Set comment field mandatory dependent on leave type</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 14:24:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0bb066d04f932300fde8045e9310c73b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set comment field mandatory dependent on leave type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Absence" source="x_0112_absence">ee776d034f032300fde8045e9310c797</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absence">ee776d034f032300fde8045e9310c797</sys_scope>
+        <sys_update_name>sys_ui_policy_0bb066d04f932300fde8045e9310c73b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 14:24:26</sys_updated_on>
+        <table>x_0112_absence_absences</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

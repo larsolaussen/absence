@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>An absence that requires approval will trigger an email to the persons manager.</description>
         <internal_name>absence_approval</internal_name>
-        <label_cache>[{"name":"5e334b78-57dc-4564-9cbd-04af576b34fc.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created or Updated_1.current","label":"Trigger➛Absences Record","reference":"x_0112_absence_absences","reference_display":"Absences","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.opened_by.manager","label":"Trigger➛Absences Record➛Opened by➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"Created or Updated_1.current.leave_type.leave_type","label":"Trigger➛Absences Record➛Leave Type➛Leave Type","reference":"","reference_display":"Leave Type","type":"string","base_type":"string","parent_table_name":"x_0112_absence_leave_type","column_name":"leave_type"},{"name":"Created or Updated_1.current.opened_by.email","label":"Trigger➛Absences Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"1d229be6-6a28-4767-9fa7-ea5bef8c0a8f.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.opened_by.name","label":"Trigger➛Absences Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"5e334b78-57dc-4564-9cbd-04af576b34fc.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created or Updated_1.current","label":"Trigger➛Absences Record","reference":"x_0112_absence_absences","reference_display":"Absences","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.opened_by.manager","label":"Trigger➛Absences Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"60573365-c5de-4227-9e0d-6e99117be1eb.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.opened_by","label":"Trigger➛Absences Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_0112_absence_absences","column_name":"opened_by"},{"name":"Created or Updated_1.current.opened_by.manager.email","label":"Trigger➛Absences Record➛Opened by➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]</label_cache>
+        <latest_snapshot>933b8e904f532300fde8045e9310c70a</latest_snapshot>
+        <master_snapshot>0eb1cad84f132300fde8045e9310c76b</master_snapshot>
         <name>Absence approval</name>
         <outputs/>
-        <remote_trigger_id/>
+        <remote_trigger_id>1ab1cad84f132300fde8045e9310c7b3</remote_trigger_id>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-22 11:53:33</sys_created_on>
         <sys_id>32326a1b4f032300fde8045e9310c7f4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Absence approval</sys_name>
         <sys_package display_value="Absence" source="x_0112_absence">ee776d034f032300fde8045e9310c797</sys_package>
         <sys_policy/>
         <sys_scope display_value="Absence">ee776d034f032300fde8045e9310c797</sys_scope>
         <sys_update_name>sys_hub_flow_32326a1b4f032300fde8045e9310c7f4</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-22 14:07:04</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:47:04</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=32326a1b4f032300fde8045e9310c7f4"/>

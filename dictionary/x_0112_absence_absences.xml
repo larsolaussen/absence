@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Absences" max_length="40" name="x_0112_absence_absences" type="collection">
-        <element label="From" max_length="40" name="from" type="glide_date"/>
-        <element label="Leave Type" max_length="32" name="leave_type" reference="x_0112_absence_leave_type" type="reference"/>
-        <element label="To" max_length="40" name="to" type="glide_date"/>
+    <element extends="task" label="Absences" max_length="40" name="x_0112_absence_absences" sizeclass="3" type="collection">
+        <element label="Comment" mandatory="true" max_length="1000" name="comment" type="string"/>
+        <element label="From" mandatory="true" max_length="40" name="from" type="glide_date_time"/>
+        <element label="Leave Type" mandatory="true" max_length="32" name="leave_type" reference="x_0112_absence_leave_type" type="reference"/>
+        <element label="To" mandatory="true" max_length="40" name="to" type="glide_date_time"/>
     </element>
 </database>

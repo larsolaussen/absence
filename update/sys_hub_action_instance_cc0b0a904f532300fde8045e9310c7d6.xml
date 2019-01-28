@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot display_value="Send Email">716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Absence approval">32326a1b4f032300fde8045e9310c7f4</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:46:00</sys_created_on>
+        <sys_id>cc0b0a904f532300fde8045e9310c7d6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Absence" source="x_0112_absence">ee776d034f032300fde8045e9310c797</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Absence">ee776d034f032300fde8045e9310c797</sys_scope>
+        <sys_update_name>sys_hub_action_instance_cc0b0a904f532300fde8045e9310c7d6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:47:05</sys_updated_on>
+        <ui_id>1d229be6-6a28-4767-9fa7-ea5bef8c0a8f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cc0b0a904f532300fde8045e9310c7d6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc0b0a904f532300fde8045e9310c7d6</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:46:00</sys_created_on>
+        <sys_id>040b0a904f532300fde8045e9310c7dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:46:00</sys_updated_on>
+        <value/>
+        <variable display_value="">c71241160b100300d97d8bf637673a55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc0b0a904f532300fde8045e9310c7d6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:46:06</sys_created_on>
+        <sys_id>650b4a904f532300fde8045e9310c7c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:46:06</sys_updated_on>
+        <value>Absence request update</value>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc0b0a904f532300fde8045e9310c7d6</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:46:06</sys_created_on>
+        <sys_id>a10b4a904f532300fde8045e9310c7c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:46:06</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc0b0a904f532300fde8045e9310c7d6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:46:00</sys_created_on>
+        <sys_id>c40b0a904f532300fde8045e9310c7dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:46:00</sys_updated_on>
+        <value>Absence request update</value>
+        <variable display_value="">b21241160b100300d97d8bf637673a4a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cc0b0a904f532300fde8045e9310c7d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>cc0b0a904f532300fde8045e9310c7d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:46:06</sys_created_on>
+        <sys_id>210b4a904f532300fde8045e9310c7c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:46:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="cursor_helper" style="display: inline-block; min-width: 1px; line-height: 18px; min-height: 18px; margin: 0px 0px -6px; white-space: pre-wrap;"&gt;Your absence request for&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;div class="data_parent_pill" style="white-space: pre-wrap; display: inline;" contenteditable="false" data-pillid="0" data-pillvalue="{{Created or Updated_1.current.leave_type.leave_type}}"&gt;
+&lt;div class="data_pill " contenteditable="false" data-pillid="0" data-pillvalue="{{Created or Updated_1.current.leave_type.leave_type}}"&gt;Trigger➛Absences Record➛Leave Type➛Leave Type&lt;button class="delete_pill btn-icon icon-cross" type="button"&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="cursor_helper" style="display: inline-block; min-width: 1px; line-height: 18px; min-height: 18px; margin: 0px 0px -6px; white-space: pre-wrap;"&gt; has been &lt;span class="data_pill " contenteditable="false" data-pillid="71a11a1b-3859-418f-9c16-7bac7b689802" data-pillvalue="{{5e334b78-57dc-4564-9cbd-04af576b34fc.approval_state}}"&gt;2➛Approval State&lt;/span&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="cursor_helper" style="display: inline-block; min-width: 1px; line-height: 18px; min-height: 18px; margin: 0px 0px -6px; white-space: pre-wrap;"&gt;Please go to 'My Absences' to review the request.&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>cc0b0a904f532300fde8045e9310c7d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:46:00</sys_created_on>
+        <sys_id>800b0a904f532300fde8045e9310c7dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:46:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="cursor_helper" style="display: inline-block; min-width: 1px; line-height: 18px; min-height: 18px; margin: 0px 0px -6px; white-space: pre-wrap;"&gt;Your absence request for&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;div class="data_parent_pill" style="white-space: pre-wrap; display: inline;" contenteditable="false" data-pillid="0" data-pillvalue="{{Created or Updated_1.current.leave_type.leave_type}}"&gt;
+&lt;div class="data_pill " contenteditable="false" data-pillid="0" data-pillvalue="{{Created or Updated_1.current.leave_type.leave_type}}"&gt;Trigger➛Absences Record➛Leave Type➛Leave Type&lt;button class="delete_pill btn-icon icon-cross" type="button"&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="cursor_helper" style="display: inline-block; min-width: 1px; line-height: 18px; min-height: 18px; margin: 0px 0px -6px; white-space: pre-wrap;"&gt; has been &lt;span class="data_pill " contenteditable="false" data-pillid="71a11a1b-3859-418f-9c16-7bac7b689802" data-pillvalue="{{5e334b78-57dc-4564-9cbd-04af576b34fc.approval_state}}"&gt;2➛Approval State&lt;/span&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="cursor_helper" style="display: inline-block; min-width: 1px; line-height: 18px; min-height: 18px; margin: 0px 0px -6px; white-space: pre-wrap;"&gt;Please go to 'My Absences' to review the request.&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>cc0b0a904f532300fde8045e9310c7d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:46:06</sys_created_on>
+        <sys_id>6d0b4a904f532300fde8045e9310c7c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:46:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>cc0b0a904f532300fde8045e9310c7d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:46:00</sys_created_on>
+        <sys_id>cc0b0a904f532300fde8045e9310c7dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:46:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>cc0b0a904f532300fde8045e9310c7d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:46:00</sys_created_on>
+        <sys_id>080b0a904f532300fde8045e9310c7dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:46:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created or Updated_1.current.opened_by.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>cc0b0a904f532300fde8045e9310c7d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-25 12:46:06</sys_created_on>
+        <sys_id>a90b4a904f532300fde8045e9310c7c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-25 12:46:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Created or Updated_1.current.opened_by.email}}</value>
+    </sys_element_mapping>
+</record_update>
